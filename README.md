@@ -30,6 +30,15 @@ This project implements Supervised Fine-Tuning (SFT) for generating clarifying q
 
 ---
 
+## Inference / Evaluation Summary
+
+| Experiment | Dataset | Samples | Total Time | Avg Time / Sample |
+|-----------|---------|---------|------------|-------------------|
+| Exp 1 | AmbigQA | 400 | 3h 06m 43s | 28.01s |
+| Exp 2 | CoQA-ABG | 130 | 1h 30m 27s | 41.75s |
+
+*Measured on Google Colab (free tier) with a single GPU.*
+
 ## Example Predictions
 
 ### AmbigQA
