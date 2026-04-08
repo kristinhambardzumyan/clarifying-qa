@@ -4,6 +4,14 @@ This project implements Supervised Fine-Tuning (SFT) for generating clarifying q
 
 ---
 
+## Model
+
+- Base Model: **Qwen2.5-1.5B**
+- Training: Supervised Fine-Tuning (SFT)
+- Task: Clarifying Question Generation (`gen_clarify_q`)
+
+---
+
 ## Results
 
 | Experiment | Dataset | BLEU | ROUGE-L |
